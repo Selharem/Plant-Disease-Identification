@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AuthActivity">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:drawableLeft="@drawable/avatar"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:drawableLeft="@drawable/padlock"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="30dp"
+            android:scaleType="fitStart"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/hide" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="i'm not robot"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/recaptcha"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/shape"
+
+        android:fontFamily="@font/basic"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/login"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ou"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/google"
+        android:text="@string/SignGoogle"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_________________________________"/>
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textColor="#14B5FF"
+        android:text="@string/registre"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotPass"
+        android:textColor="#14B5FF"
+        android:text="@string/ressetP"
+        android:layout_marginTop="7dp"
+        android:textSize="15sp"
+
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:visibility="invisible" />
+
+</LinearLayout>

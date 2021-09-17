@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة السر</string>
+    <string name="logout">خروج</string>
+    <string name="registre">إنشاء حساب جديد</string>
+    <string name="ressetP">كلمة السر مفقودة</string>
+    <string name="SignGoogle">باستخدام حسابك على Google</string>
+    <string name="firstname">الاسم ...</string>
+    <string name="lastname">النسب ...</string>
+    <string name="confirm">تاكيد كلمة السر ...</string>
+    <string name="recuperer">ارجاع كلمة السر</string>
+    <string name="vide">فراغ</string>
+    <string name="captcha">يجب النقر على recaptcha</string>
+    <string name="format">شكل البريد الإلكتروني غير صحيح</string>
+    <string name="pass">كملة السر(حروف كبيرة,صغيرة,رقم)</string>
+    <string name="confondu">كلمة السر غير متطابقة</string>
+    <string name="Auth">البريد الإلكتروني او كلمة السر خاطئة</string>
+    <string name="lancer_une_analyse">تحليل عينة</string>
+    <string name="ouvrir_map">فتح الخريطة</string>
+    <string name="documentation">معلومات حول الامراض</string>
+    <string name="options">إعدادات</string>
+    <!-- Amine -->
+
+    <string name="connect">تسجيل دخول</string>
+    <string name="no_account_create_an_account">غير مشترك ؟ تسجيل</string>
+    <string name="votre_photo_est_entrain_d_tre_analys_e">يتم تحليل الصورة</string>
+    <string name="quel_est_votre_nom">ما إسمك ؟</string>
+    <string name="veuillez_d_finir_un_username">إختر إسم المرور :</string>
+    <string name="veuillez_d_finir_un_mot_de_passe">إختر كلمة السّر :</string>
+    <string name="register">تسجيل</string>
+    <string name="langue_de_l_application">اللغة :</string>
+    <string name="deconnexion">تسجيل الخروج</string>
+    <string name="about">معلومات حول التطبيق</string>
+    <string name="valider">تأكيد</string>
+    <string name="rotation">تدوير الصورة</string>
+    <string name="resize">تغير حجم الصورة</string>
+    <string name="take_a_picture">إلتقاط صورة</string>
+    <string name="upload_a_picture">تحميل صورة</string>
+    <string name="la_maladie_est_unemaladie">المرض هو : مرض</string>
+    <string name="documentation_sur_la_maladie">معلومات حول المرض</string>
+    <string name="change_language">اللغة</string>
+</resources>

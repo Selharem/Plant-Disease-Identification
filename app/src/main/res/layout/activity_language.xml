@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Choisir une langue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup android:id="@+id/orientation"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20sp"
+
+        android:padding="5px">
+
+        <RadioButton
+            android:id="@+id/radioFrancais"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Français"
+            />
+        <RadioButton
+            android:id="@+id/radioArab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Arabe"/>
+
+    </RadioGroup>
+
+
+    <Button
+
+        android:id="@+id/Ok"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:height="40dp"
+        android:layout_marginTop="18dp"
+        android:background="@color/send"
+        android:layout_marginLeft="120sp"
+        android:text="Ok"
+        android:textColor="@android:color/white" />
+</LinearLayout>

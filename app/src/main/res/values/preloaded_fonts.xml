@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alfa_slab_one</item>
+        <item>@font/alice</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/arbutus</item>
+        <item>@font/archivo_black</item>
+        <item>@font/basic</item>
+    </array>
+</resources>

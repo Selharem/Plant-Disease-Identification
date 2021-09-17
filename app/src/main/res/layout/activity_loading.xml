@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoadingActivity">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/loadingProgressBar"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loadingProgressBar"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+
+       android:text="hohohohohoh"
+        android:textSize="20dp"
+        />
+    <!-- android:text="@string/votre_photo_est_entrain_d_tre_analys_e"-->
+
+
+</RelativeLayout>

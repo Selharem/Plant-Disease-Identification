@@ -1,0 +1,64 @@
+<resources id="first">
+    <string name="app_name">test</string>
+    <string name="login">Connexion</string>
+    <string name="email">Taper votre adresse email ...</string>
+    <string name="password">Taper votre mot de passe ...</string>
+    <string name="logout">Déconnexion</string>
+    <string name="registre">Créer un nouveau compte</string>
+    <string name="ressetP">Mot de passe oublié</string>
+    <string name="SignGoogle">Se connecter à l\'aide de Google</string>
+    <string name="firstname">Tapez votre prènom ...</string>
+    <string name="lastname">Tapez votre nom ...</string>
+    <string name="confirm">Répeter votre Mot de passe ...</string>
+    <string name="recuperer">Récuperer votre Mot de passe</string>
+    <string name="vide">le champ est vide !!</string>
+    <string name="format">la forme d\'email n\'est pas correct</string>
+    <string name="captcha">il faut cocher le reCaptcha</string>
+    <string name="pass">Mot de passe(maj,min,nombre)</string>
+    <string name="confondu">les mot de passes ne sont pas les memes</string>
+    <string name="Auth">Email ou mot de passe est incorrecte</string>
+    <string name="lancer_une_analyse">Lancer une analyse</string>
+    <string name="ouvrir_map">Ouvrir map</string>
+    <string name="documentation">Documentation</string>
+    <string name="options">Options</string>
+
+
+    <string-array name="names">
+        <item>Rabat, Salé, Kénitra</item>
+        <item>Casablanca, Settat</item>
+        <item>Fès, Meknès</item>
+        <item>Marrakech, Safi</item>
+        <item>Tanger, Tétouan, Al Hoceïma</item>
+        <item>Oriental</item>
+        <item>Béni Mellal, Khénifra</item>
+        <item>Drâa, Tafilalet</item>
+        <item>Souss, Massa</item>
+        <item>Guelmim, Oued Noun</item>
+        <item>Laâyoune, Sakia El Hamra</item>
+        <item>Dakhla, Oued Ed Dahab</item>
+    </string-array>
+
+
+    <string name="connect">Connect</string>
+    <string name="no_account_create_an_account">No account ? Create an account</string>
+    <string name="votre_photo_est_entrain_d_tre_analys_e">Votre photo est entrain d\'être analysée</string>
+    <string name="quel_est_votre_nom">Quel est votre nom ?</string>
+    <string name="veuillez_d_finir_un_username">Veuillez définir un username :</string>
+    <string name="veuillez_d_finir_un_mot_de_passe">Veuillez définir un mot de passe :</string>
+    <string name="register">Register</string>
+    <string name="langue_de_l_application">Langue de l\'application :</string>
+    <string name="deconnexion">Deconnexion</string>
+    <string name="about">About</string>
+    <string name="valider">Valider</string>
+    <string name="rotation">Rotation</string>
+    <string name="resize">Resize</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="upload_a_picture">Upload a picture</string>
+    <string name="la_maladie_est_unemaladie">La maladie est : UneMaladie</string>
+    <string name="documentation_sur_la_maladie">Documentation sur la maladie</string>
+    <string name="change_language">Change language</string>
+</resources>
+
+
+
+
